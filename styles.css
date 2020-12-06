@@ -109,7 +109,68 @@ h1 {
     font-size: 13px;
 }
 
+#main-content {
+    margin: auto;
+    margin-top: 25px;
+    width: 600px;
+}
 
-@media all and (max-width: 480px) {
+#date {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+#theory-inflation {
+    width: 944.8px;
+    margin: auto;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+    line-height: 17px;
+    background: url("images/universe.png");
+    word-spacing: 1px;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:576px;
+    width:945px;
+}
+
+#universe,
+#time,
+#distant-coffee,
+#everywhere-coffee,
+#not-enough-time,
+#inflation,
+#fluctuation,
+#expansion {
+    margin-top: 135px;
+    width: 24%;
+}
+
+.small-grey-text {
+    font-size: 16px;
+    color: grey;
+}
+
+#inflation-title {
+    line-height: 1rem;
+    font-size: 20px;
+}
+
+#inflation-img {
+
+}
+/* @media all and (max-width: 480px) {
     .mydiv { display: none; }
-  }
+  } */
