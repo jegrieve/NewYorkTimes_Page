@@ -193,7 +193,6 @@ p {
 
 #read-comments-btn {
     text-size-adjust: 100%;
-    vertical-align: middle;
     margin: 0;
     cursor: pointer;
     background-color: rgb(86, 123, 149);
@@ -214,6 +213,3 @@ p {
     width: 50%;
 }
 
-/* @media all and (max-width: 480px) {
-    .mydiv { display: none; }
-  } */
